@@ -1,0 +1,131 @@
+{
+    "remeras": [
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/1.webp",
+            "link": "producto.html",
+            "nombre": "VueJS",
+            "precio": 25,
+            "id":1
+            
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/2.webp",
+            "link": "producto.html",
+            "nombre":"AngularJs",
+            "precio":25,
+            "id":2
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/3.webp",
+            "link": "producto.html",
+            "nombre":"ReactJs",
+            "precio":25,
+            "id":3
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/4.webp",
+            "link": "producto.html",
+            "nombre":"Redux",
+            "precio":25,
+            "id":4
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/5.webp",
+            "link": "producto.html",
+            "nombre":"Node",
+            "precio":25,
+            "id":5
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/6.webp",
+            "link": "producto.html",
+            "nombre":"Sass",
+            "precio":25,
+            "id":6
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/7.webp",
+            "link": "producto.html",
+            "nombre":"HTML5",
+            "precio":25,
+            "id":7
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/8.webp",
+            "link": "producto.html",
+            "nombre":"GitHub",
+            "precio":25,
+            "id":8
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/9.webp",
+            "link": "producto.html",
+            "nombre":"BulmaCSS",
+            "precio":25,
+            "id":9
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/10.webp",
+            "link": "producto.html",
+            "nombre":"TypeScript",
+            "precio":25,
+            "id":10
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/11.webp",
+            "link": "producto.html",
+            "nombre":"Drupal",
+            "precio":25,
+            "id":11
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/12.webp",
+            "link": "producto.html",
+            "nombre":"Javascript",
+            "precio":25,
+            "id":12
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/13.webp",
+            "link": "producto.html",
+            "nombre":"GraphQl",
+            "precio":25,
+            "id":13
+
+    },
+    {
+            "clase": "producto__imagen",
+            "ubicacion": "./build/img/14.webp",
+            "link": "producto.html",
+            "nombre":"Wordpress",
+            "precio":25,
+            "id":14
+
+    }
+    ]
+}

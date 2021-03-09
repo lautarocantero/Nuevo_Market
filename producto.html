@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./build/css/app.css">  
+    <title>Marquet</title>
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <img class="header__logo" src="/build/img/logo.webp" alt="logo">
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">TIENDA</a>
+        <a class="navegacion__enlace" href="nosotros.html">NOSOTROS</a>
+    </nav>
+    <main class="contenedor">
+        <h1>React JS</h1>
+
+        <div class="remera">
+
+            <img class="remera__img" src="build/img/1.webp" alt="img1">
+
+            <div class="remera__detalle">
+                <p>Remera con logo React Js. Taller L , color gris.</p>
+
+                <form class="formulario" action="">
+                    <select  class="formulario__campo">
+                        <option disabled selected>--talla--</option>
+                        <option value="chica">chica</option>
+                        <option value="mediana">mediana</option>
+                        <option value="grande">grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" name="cantidad" min="1" max="15" placeholder="1">
+                    <input class="formulario__boton" type="submit" value="AGREGAR AL CARRITO">
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p class="footer__texto">Frontend Store - Todos los derechos reservados 2022</p>
+    </footer>
+</body>
+</html>

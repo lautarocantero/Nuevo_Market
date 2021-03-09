@@ -1,0 +1,30 @@
+
+h1{
+    color: $blanco;
+}
+
+.remera{
+    padding: 2rem;
+
+    .remera__img{
+        border: 0.4rem solid $secundario;
+        margin: 0 auto;
+    }
+
+}
+
+@include tablet{
+    .remera{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center center;
+    }
+}
+
+.remera__detalle p{
+    background-color: $blanco;
+    border: 0.4rem solid $secundario;
+    color: $negro;
+    border-radius: 1rem;
+    padding: 1rem;
+}

@@ -1,0 +1,59 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: $fuente_principal;
+    font-size: 1.6rem;
+    background-color: $negro;
+    line-height: 1.5; /*interlineado*/
+}
+
+p{
+    margin: 0;
+    color: $blanco;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: $rosa_claro;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3{
+    margin: 0;
+    color: $secundario;
+    font-family: $fuente_principal;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 2rem auto;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+

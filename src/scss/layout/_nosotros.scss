@@ -1,0 +1,42 @@
+
+.nosotros{
+    
+    display: grid;
+    grid-template-rows: repeat(2,auto); /*toma el tamaño automaticamente*/
+    column-gap: 2rem;
+
+    @include tablet(){
+        .nosotros{
+            column-gap: 2rem;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+
+    .nosotros__imagen{
+        grid-row: 1/2;
+    }
+
+    @include tablet(){
+        .nosotros__imagen{
+            grid-column: 2/3;
+        }
+    }
+
+    .nosotros__contenido{
+        margin-top: 1rem;
+        background-color: $primarioclaro;
+        row-gap: 2rem;
+
+        p{
+            color: $secundario;
+        }
+
+    }
+
+    @include tablet(){
+        .nosotros__contenido{
+            border-radius: 2rem;
+        }
+    }
+
+}

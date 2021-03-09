@@ -1,0 +1,25 @@
+
+.navegacion{
+    background-color: $primario;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+
+
+    .navegacion__enlace{
+        color: $secundario;
+        font-family: $fuente_principal;
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    
+    
+    .activo,
+    .navegacion__enlace:hover{
+        background-color: $primarioclaro;
+        color: $secundario;
+        
+    }
+
+}
+

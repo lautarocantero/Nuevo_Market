@@ -1,0 +1,39 @@
+
+.contenedor{
+    margin-top: 0.5rem;
+}
+
+.bloques{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+    background-color:$primario;
+    padding: 1rem;
+    
+
+    .bloque{
+        text-align: center;
+
+        .bloque__titulo{
+            margin: 0;
+        }
+
+        .bloque__descripcion{
+            color: $secundario;
+        }
+
+    }
+    
+
+}
+
+@include tablet{
+
+    .bloques{
+        grid-template-columns: repeat(4,1fr);
+        border-radius: 2rem;
+    }
+
+}
+

@@ -1,0 +1,46 @@
+
+
+.formulario{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 1rem;
+
+    .formulario__campo{
+        background-color: $primario;
+        border: 1rem solid $secundario;
+        color: $secundario;
+        font-size: 2rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 1rem;
+
+    }
+
+    select{
+        width: 95%;
+    }
+
+    .formulario__boton{
+        background-color: $primarioclaro;
+        border: none;
+        color: $negro;
+        font-family: $fuente_principal;
+        font-size: 2rem;
+        transition: background-color .3s ease;
+        transition: color .3s ease;
+        transition: font-size .3s ease;
+        margin-top: 1rem;
+        padding: 2rem;
+        grid-column: 1/3;
+
+        &:hover{
+            background-color: $primarioclaro;
+            color: $secundario;
+            cursor: pointer;
+            font-size: 2.4rem;
+        }
+    }
+
+}

@@ -1,0 +1,54 @@
+
+
+.publicidad{
+    position: relative;
+    margin: 2rem auto;
+    width: 600px;
+    height: 250px;
+    background-image: url(/src/img/fondo-blanco.jpg);
+    background-size: cover;
+    background-position: center center ;
+    overflow: hidden;
+
+    .overlay{
+        background-color: rgba($color: #38333373, $alpha: 0.7);
+    }
+
+    .publicidad-imagen{
+        background-image: url(/src/img/slide2.png);
+        background-size: cover;
+        background-position:auto auto;
+        height: 250px;
+        margin-left: 15rem;
+        
+    }
+    .publicidad-texto{
+        padding: 1rem;
+        display: inline;
+        position: absolute;
+        border-radius: 0.7rem;
+        margin-top: -18rem;
+        margin-left: 1rem;
+        width: 40%;
+
+    }
+    .publicidad-texto p{
+        color: $blanco;
+        font-size: 2.1rem;
+        text-align: center;
+    }
+
+    .publicidad-texto span{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .publicidad-iconos i{
+        color: $blanco;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        font-size: 3rem;
+    }
+
+
+}
